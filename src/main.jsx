@@ -8,7 +8,7 @@ import MonthlyProgress from './MonthlyProgress';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-     <Router basename="/diet-tracker">
+     <Router basename="/Diet-tracker">
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/day/:dayName" element={<DayDetail />} />
